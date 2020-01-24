@@ -1,5 +1,47 @@
-/* General styling starts */
-/* General styling ends */
+@charset "utf-8";
+
+/*General styling starts*/
+@font-face {  /*This code adds a new font-face, which can be used in the product*/
+    src: url("../font/Gruppo.ttf");
+    font-family: Gruppo;
+}
+
+* { /*This code apllies the new fon-face to the entire document*/
+    font-family: Gruppo;
+}
+
+p, h1, h2, a {
+    color: white;
+}
+
+.card h5, .card p {
+    color: black;
+}
+
+body {
+    background-color: black;
+}
+/*General styling ends*/
+
+
+/*Header styling starts*/
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1.5rem; 
+    background-color: black;
+}
+
+#logo {
+    width: 20%;
+    height: auto;
+    margin-left: 10%;
+}
+
+#navigation {
+    margin-right: 10%;
+}
+/*Header styling ends*/
 
 
 /* Styling for "index" starts */
