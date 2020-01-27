@@ -10,37 +10,141 @@
     font-family: Gruppo;
 }
 
-p, h1, h2, a {
+body {
+    background-color: black;
+}
+
+h1, h2, h3, h4, h5, p, a {
     color: white;
 }
 
-.card h5, .card p {
-    color: black;
-}
-
-body {
-    background-color: black;
+a:hover, a.active {
+    color: #307ca1;
 }
 /*General styling ends*/
 
 
+/* Styling for mobile starts */
+/* Styling for header starts */
+.desktopnav {
+    display: none;
+}
+
+#moblogo {
+    width: 40%;
+}
+
+.mobilnav .nav-link {
+    color: white;
+}
+
+.animated-icon1, .animated-icon2, .animated-icon3 {
+    width: 30px;
+    height: 20px;
+    position: relative;
+    margin: 0px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    }
+    
+    .animated-icon1 span, .animated-icon2 span, .animated-icon3 span {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+    }
+    
+    .animated-icon1 span {
+    background: #307ca1;
+    }
+    
+    .animated-icon2 span {
+    background: #e3f2fd;
+    }
+    
+    .animated-icon3 span {
+    background: #f3e5f5;
+    }
+    
+    .animated-icon1 span:nth-child(1) {
+    top: 0px;
+    }
+    
+    .animated-icon1 span:nth-child(2) {
+    top: 10px;
+    }
+    
+    .animated-icon1 span:nth-child(3) {
+    top: 20px;
+    }
+    
+    .animated-icon1.open span:nth-child(1) {
+    top: 11px;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+    }
+    
+    .animated-icon1.open span:nth-child(2) {
+    opacity: 0;
+    left: -60px;
+    }
+    
+    .animated-icon1.open span:nth-child(3) {
+    top: 11px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+    }
+/* Styling for header ends */
+/* Styling for mobile ends */
+
+
+/* Styling for desktop starts */
+@media only screen and (min-width: 768px) {
+
+
 /*Header styling starts*/
-.navbar {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    font-size: 1.5rem; 
-    background-color: black;
-}
+    .mobilnav {
+        display: none;
+    }
 
-#logo {
-    width: 20%;
-    height: auto;
-    margin-left: 10%;
-}
+    .desktopnav {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        font-size: 1.5rem; 
+        background-color: black;
+    }
 
-#navigation {
-    margin-right: 10%;
-}
+    #logo {
+        width: 20%;
+        height: auto;
+        margin-left: 10%;
+    }
+
+    #navigation {
+        margin-right: 10%;
+    }
 /*Header styling ends*/
 
 
@@ -48,17 +152,15 @@ body {
 /* Styling for "index" ends */
 
 
-/* Styling for "catalogue" starts */
-/* Styling for "catalogue" ends */
-
-
-/* Styling for "products" starts */
-/* Styling for "products" ends */
-
-
-/* Styling for "single-product" starts */
-/* Styling for "single-product" ends */
+/* Styling for "catalogue(Ecto/Endo/Meso/Accessories)" starts */
+    .dropdown-item.active {
+        background-color: #307ca1;
+        color: black;
+    }
+/* Styling for "catalogue(Ecto/Endo/Meso/Accessories)" ends */
 
 
 /* Styling for "about" starts */
 /* Styling for "about" ends */
+}
+/* Styling for desktop ends */
