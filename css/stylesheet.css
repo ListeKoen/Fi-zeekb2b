@@ -30,12 +30,26 @@ a:hover, a.active {
     display: none;
 }
 
-#moblogo {
-    width: 40%;
+.mobilnav {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    font-size: 1.5rem; 
 }
 
-.mobilnav .nav-link {
+#moblogo {
+    width: 80%;
+}
+
+.navbar-toggler {
+    margin-left: 15vw;
+}
+
+.mobilnav .nav-link, .mobilnav .moblink {
     color: white;
+}
+
+.nav-item {
+    margin-left: 5vw;
 }
 
 .animated-icon1, .animated-icon2, .animated-icon3 {
@@ -117,6 +131,31 @@ a:hover, a.active {
     transform: rotate(-135deg);
     }
 /* Styling for header ends */
+
+/* Styling for "index" starts */
+.bottom-right {
+    position: absolute;
+    top: 123vh;
+    right: 16px;
+  }
+
+  #collectionimg {
+      width: 100%;
+  }
+/* Styling for "index" ends */
+
+/* Styling for "catalogue" starts */
+.ectobox, .mesobox {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.endobox, .accbox {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+/* Styling for "catalogue" ends */
+
 /* Styling for mobile ends */
 
 

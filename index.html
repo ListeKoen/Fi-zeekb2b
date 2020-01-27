@@ -12,27 +12,27 @@
     <header>
         <!-- Mobile navigation start -->
         <nav class="navbar mobilnav">
-            <a class="navbar-brand" href="#"><img src="img/logo.png" id="moblogo" alt=""></a>
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" id="moblogo" alt=""></a>
             <button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent20"
             aria-controls="navbarSupportedContent20" aria-expanded="false" aria-label="Toggle navigation">
                 <div class="animated-icon1"><span></span><span></span><span></span></div>
             </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent20">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link moblink" href="#">catalogue</a>
                         </li>
                         <div class="dropdown-divider"></div>
-                        <li><a class="nav-link moblink" href=""></a>ectomorph</li>
-                        <li><a class="nav-link moblink" href=""></a>endomorph</li>
-                        <li><a class="nav-link moblink" href=""></a>mesomorph</li>
-                        <li><a class="nav-link moblink" href=""></a>accessories</li>
+                        <li class="nav-item"><a class="nav-link moblink" href="ectomorph.html">ectomorph</a></li>
+                        <li class="nav-item"><a class="nav-link moblink" href="endomorph.html">endomorph</a></li>
+                        <li class="nav-item"><a class="nav-link moblink" href="mesomorph.html">mesomorph</a></li>
+                        <li class="nav-item"><a class="nav-link moblink" href="accessories.html">accessories</a></li>
                         <div class="dropdown-divider"></div>
                         <li class="nav-item">
-                            <a class="nav-link moblink" href="#">the drink</a>
+                            <a class="nav-link moblink" href="drink.html">the drink</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link moblink" href="#">about</a>
+                            <a class="nav-link moblink" href="about.html">about</a>
                         </li>
                     </ul>
                 </div>
@@ -68,7 +68,39 @@
     </header>
 
     <main>
-    
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/mesofemale.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/mesofemale.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/mesofemale.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+          <section>
+              <a href="catalogue.html">
+                <img src="img/womanwide.jpg" id="collectionimg" alt="">
+                <p class="bottom-right">Collection</p>
+              </a>
+          </section>
     </main>
 
     <footer>
