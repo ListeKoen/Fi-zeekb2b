@@ -138,21 +138,20 @@ a:hover, a.active {
 /* Styling for header ends */
 
 /* Styling for "index" starts */
-.bottom-right {
-    font-size: 2rem;
-    padding-right: 5%;
-    padding-top: 30%;
-  }
-
-  .collection-text {
-      padding-right: 5%;
-  }
-
-.collection-section {
-    background-image: url(../img/womanwide.jpg);
-    background-size: cover;
-    text-align: end;
+.collection-img {
+    z-index: -1;
+    width: 100%;
+    height: auto;
 }
+
+.collection-header {
+    font-size: 2rem;
+}
+
+.collection-header, .collection-text {
+    z-index: 1;
+}
+
 /* Styling for "index" ends */
 
 /* Styling for "catalogue" starts */
