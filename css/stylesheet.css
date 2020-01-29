@@ -21,6 +21,11 @@ h1, h2, h3, h4, h5, p, a {
 a:hover, a.active {
     color: #307ca1;
 }
+
+.dropdown-item.active {
+    background-color: #307ca1;
+    color: black;
+}
 /*General styling ends*/
 
 
@@ -134,30 +139,49 @@ a:hover, a.active {
 
 /* Styling for "index" starts */
 .bottom-right {
-    position: absolute;
-    top: 123vh;
-    right: 16px;
+    font-size: 2rem;
+    padding-right: 5%;
+    padding-top: 30%;
   }
 
-  #collectionimg {
-      width: 100%;
+  .collection-text {
+      padding-right: 5%;
   }
+
+.collection-section {
+    background-image: url(../img/womanwide.jpg);
+    background-size: cover;
+    text-align: end;
+}
 /* Styling for "index" ends */
 
 /* Styling for "catalogue" starts */
+#catahead {
+    text-align: center;
+    font-size: 2rem;
+}
+
 .ectobox, .mesobox {
     display: grid;
     grid-template-columns: 2fr 1fr;
+    font-size: 1.8rem;
 }
 
 .endobox, .accbox {
     display: grid;
     grid-template-columns: 1fr 2fr;
+    font-size: 1.8rem;
 }
 
 .cataimg {
     width: 100%;
     height: auto;
+}
+
+.catatext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /* Styling for "catalogue" ends */
 
@@ -197,10 +221,6 @@ a:hover, a.active {
 
 
 /* Styling for "catalogue(Ecto/Endo/Meso/Accessories)" starts */
-    .dropdown-item.active {
-        background-color: #307ca1;
-        color: black;
-    }
 /* Styling for "catalogue(Ecto/Endo/Meso/Accessories)" ends */
 
 
