@@ -35,12 +35,26 @@ a:hover, a.active {
     display: none;
 }
 
-#moblogo {
-    width: 40%;
+.mobilnav {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    font-size: 1.5rem; 
 }
 
-.mobilnav .nav-link {
+#moblogo {
+    width: 80%;
+}
+
+.navbar-toggler {
+    margin-left: 15vw;
+}
+
+.mobilnav .nav-link, .mobilnav .moblink {
     color: white;
+}
+
+.nav-item {
+    margin-left: 5vw;
 }
 
 .animated-icon1, .animated-icon2, .animated-icon3 {
@@ -122,6 +136,55 @@ a:hover, a.active {
     transform: rotate(-135deg);
     }
 /* Styling for header ends */
+
+/* Styling for "index" starts */
+.bottom-right {
+    font-size: 2rem;
+    padding-right: 5%;
+    padding-top: 30%;
+  }
+
+  .collection-text {
+      padding-right: 5%;
+  }
+
+.collection-section {
+    background-image: url(../img/womanwide.jpg);
+    background-size: cover;
+    text-align: end;
+}
+/* Styling for "index" ends */
+
+/* Styling for "catalogue" starts */
+#catahead {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.ectobox, .mesobox {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    font-size: 1.8rem;
+}
+
+.endobox, .accbox {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    font-size: 1.8rem;
+}
+
+.cataimg {
+    width: 100%;
+    height: auto;
+}
+
+.catatext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Styling for "catalogue" ends */
+
 /* Styling for mobile ends */
 
 
@@ -158,6 +221,7 @@ a:hover, a.active {
 
 
 /* Styling for "catalogue(Ecto/Endo/Meso/Accessories)" starts */
+
     .catalogue-wrapper{
         display: grid;
         grid-template-columns: 1fr 3fr;
@@ -203,6 +267,7 @@ a:hover, a.active {
     .card{
         background-color: transparent; 
     }
+
 
 /* Styling for "catalogue(Ecto/Endo/Meso/Accessories)" ends */
 
