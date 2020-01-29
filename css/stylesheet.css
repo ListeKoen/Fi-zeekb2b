@@ -221,6 +221,54 @@ a:hover, a.active {
 
 
 /* Styling for "catalogue(Ecto/Endo/Meso/Accessories)" starts */
+
+    .catalogue-wrapper{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        margin-top: 10px;
+    }
+
+    .navigation-left ul{
+        list-style-type: none;
+        color: white;
+        margin-top: 50px;
+    }
+
+    .navigation-left li{
+        font-size: 20px;
+        margin: 10px;
+        margin-left:20px;
+    }
+
+    .collections{
+        width: 90%;
+    }
+
+    .collections-cards{
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+
+    .collections-cards .card{
+        margin-right: 7%;
+        margin-left: 7%;
+        margin-top: 3%;
+    }
+
+    .collections h1{
+        text-align-last: center;
+    }
+
+    .collections h2{
+        font-size: 25px;
+    }
+
+    .card{
+        background-color: transparent; 
+    }
+
+
 /* Styling for "catalogue(Ecto/Endo/Meso/Accessories)" ends */
 
 
