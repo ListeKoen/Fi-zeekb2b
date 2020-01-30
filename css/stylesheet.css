@@ -200,6 +200,109 @@ a:hover, a.active {
 }
 /* Styling for "catalogue" ends */
 
+/* Styling for "catalogue(Ecto/Endo/Meso/Accessories)" starts */
+.navigation-left{
+    display: none;
+}
+
+.collections{
+    margin: 2%;
+    width: 96%;
+}
+
+.collections-cards{
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.collections-cards .card{
+    margin-right: 7%;
+    margin-left: 7%;
+    margin-top: 3%;
+    background-color: transparent; 
+    width: 85%;
+}
+
+.collections h1{
+    text-align-last: center;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.collections h2{
+    font-size: 25px;
+}
+/* Styling for "catalogue(Ecto/Endo/Meso/Accessories)" ends */
+
+/*Styling for "product" starts*/
+.product-wrapper-desktop{
+    display: none;
+}
+
+.product-pics{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#product{
+    margin-top: 5vh;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.product-pics{
+    margin-left: 5%;
+    margin-right: 5%;    
+    margin-bottom: 5%;
+}
+
+.product-pics img{
+    width: 100%; 
+}
+
+.top-description{
+    margin-top: 2vh;
+    margin-left: 10%;
+    width: 80%;
+}
+
+.top-description h1{
+    font-size: 2rem;
+}
+
+.top-description p{
+    font-size: 1.3rem;
+    margin-left: 2vh;
+}
+
+.product-description{
+    background-color: black;
+}
+
+.card-body{
+    color: white;
+}
+
+.btn-group{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.btn-outline-light{
+    margin-left: 4vh;
+    margin-bottom: 2vh;
+}
+
+
+#collapseOne, #collapseTwo, #collapseThree{
+    margin-left: 2vw;
+}
+
+/*Styling for "product" ends*/
+
+
 /* Styling for mobile ends */
 
 
@@ -241,7 +344,6 @@ a:hover, a.active {
 }
 /* Styling for "index" ends */
 
-
 /* Styling for "catalogue(Ecto/Endo/Meso/Accessories)" starts */
 
     .catalogue-wrapper{
@@ -250,16 +352,20 @@ a:hover, a.active {
         margin-top: 10px;
     }
 
+    .navigation-left{
+        display: block;
+    }
+
     .navigation-left ul{
         list-style-type: none;
         color: white;
-        margin-top: 50px;
+        margin-top: 10vw;
+        margin-left:4vw;
     }
 
     .navigation-left li{
-        font-size: 20px;
+        font-size: 1.5rem;
         margin: 10px;
-        margin-left:20px;
     }
 
     .collections{
@@ -269,29 +375,84 @@ a:hover, a.active {
     .collections-cards{
         display: grid; 
         grid-template-columns: 1fr 1fr 1fr;
-        
     }
 
     .collections-cards .card{
-        margin-right: 7%;
-        margin-left: 7%;
-        margin-top: 3%;
+        background-color: transparent; 
+        width: 85%;
     }
 
     .collections h1{
         text-align-last: center;
+        font-size: 2.5rem;
     }
 
     .collections h2{
         font-size: 25px;
     }
 
-    .card{
-        background-color: transparent; 
-    }
-
 
 /* Styling for "catalogue(Ecto/Endo/Meso/Accessories)" ends */
+
+/*Styling for "product" starts*/
+.product-wrapper-mobile{
+    display: none;
+}
+
+.product-wrapper-desktop{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+}
+
+.product-wrapper-desktop ul{
+    list-style-type: none;
+}
+
+.product-wrapper-desktop li img{
+    width: 60%;
+    margin-top: 5vh;
+}
+
+#product{
+    margin-top: 5vh;
+    width: 93%;
+}
+
+#product-text{
+    margin-top: 5vh;
+    width: 80%;
+}
+
+.product-description{
+    background-color: black;
+}
+
+.card-body{
+    color: white;
+}
+
+.top-description h1{
+    margin-bottom: 4vh;
+}
+
+.top-description p{
+    margin-left: 4vh;
+}
+
+.btn-group{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.btn-outline-light{
+    margin-left: 4vh;
+    margin-bottom: 2vh;
+}
+
+#collapseOne, #collapseTwo, #collapseThree{
+    margin-left: 4vh;
+}
+/*Styling for "product" ends*/
 
 
 /* Styling for "about" starts */
