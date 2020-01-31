@@ -225,7 +225,7 @@ a:hover, a.active {
 }
 
 .collections h1{
-    text-align-last: center;
+    text-align: center;
     font-size: 2.5rem;
     margin-bottom: 10px;
 }
@@ -262,17 +262,17 @@ a:hover, a.active {
     width: 100%; 
 }
 
-.top-description{
+.top-description-mobile{
     margin-top: 2vh;
     margin-left: 10%;
     width: 80%;
 }
 
-.top-description h1{
+.top-description-mobile h1{
     font-size: 2rem;
 }
 
-.top-description p{
+.top-description-mobile p{
     font-size: 1.3rem;
     margin-left: 2vh;
 }
@@ -301,6 +301,31 @@ a:hover, a.active {
 }
 
 /*Styling for "product" ends*/
+
+
+/* Styling for "about"/"drink" starts */
+.top-section img{
+    margin-top: 3vh;
+    width: 100%;
+    height: auto;
+}
+
+.top-section h1{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.text p, .text h2{
+    margin: 20px;
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+
+.text h2{
+    font-size: 1.5rem;
+}
+
+/* Styling for "about"/"drink" ends */
 
 
 /* Styling for mobile ends */
@@ -378,12 +403,18 @@ a:hover, a.active {
     }
 
     .collections-cards .card{
+        margin-top: 3vh;
+        margin-bottom: 3vh;
         background-color: transparent; 
         width: 85%;
     }
 
+    .card-img-top{
+        margin-bottom: 2vh;
+    }
+
     .collections h1{
-        text-align-last: center;
+        text-align: center;
         font-size: 2.5rem;
     }
 
@@ -409,34 +440,43 @@ a:hover, a.active {
 }
 
 .product-wrapper-desktop li img{
-    width: 60%;
-    margin-top: 5vh;
+    width: auto;
+    height: 23vh;
+    margin-top: 3vh;
+    margin-left: 7vw;
 }
 
 #product{
-    margin-top: 5vh;
-    width: 93%;
+    margin-top: 3vh;
+    height: 75vh;
+    width: auto;
 }
 
 #product-text{
-    margin-top: 5vh;
+    margin-top: 3vh;
     width: 80%;
 }
-
+    
 .product-description{
     background-color: black;
 }
 
 .card-body{
     color: white;
+    padding: 0px;
 }
 
-.top-description h1{
+.top-description-desktop{
+    margin-left: 2vw;
+}
+
+.top-description-desktop h1{
+    font-size: 2rem;
     margin-bottom: 4vh;
 }
 
-.top-description p{
-    margin-left: 4vh;
+.top-description-desktop p{
+    margin-left: 2vw;
 }
 
 .btn-group{
@@ -445,17 +485,38 @@ a:hover, a.active {
 }
 
 .btn-outline-light{
-    margin-left: 4vh;
+    margin-left: 4vw;
     margin-bottom: 2vh;
 }
 
+.accordion h2{
+    font-size: 1.5rem;
+}
+
 #collapseOne, #collapseTwo, #collapseThree{
-    margin-left: 4vh;
+    margin-left: 4vw;
 }
 /*Styling for "product" ends*/
 
 
-/* Styling for "about" starts */
-/* Styling for "about" ends */
+/* Styling for "about"/"drink" starts */
+.top-section img{
+    margin-top: 3vh;
+    width: 100%;
+    height: auto;
+}
+
+.top-section h1{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.text p{
+    margin: 20px;
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+
+/* Styling for "about"/"drink" ends */
 }
 /* Styling for desktop ends */
