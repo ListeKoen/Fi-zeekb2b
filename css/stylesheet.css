@@ -19,7 +19,7 @@ body {
     background-color: black;
 }
 
-h1, h2, h3, h4, h5, p, a {
+h1, h2, h3, h4, h5, h6, p, a, .footer-copyright {
     color: white;
 }
 
@@ -40,8 +40,9 @@ a:hover, a.active {
     color: black;
 }
 
-.divider{
- width: 100%;   
+
+.divider {
+    width: 100%;
 }
 /*General styling ends*/
 
@@ -54,12 +55,8 @@ a:hover, a.active {
 
 .mobilnav {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     font-size: 1.5rem; 
-}
-
-.dropdown-toggle:hover .dropdown-menu {
-    display: block !important;
 }
 
 #moblogo {
@@ -199,6 +196,7 @@ a:hover, a.active {
 #catahead {
     text-align: center;
     font-size: 2rem;
+    padding-bottom: 5%;
 }
 
 .ectobox, .mesobox {
@@ -216,6 +214,8 @@ a:hover, a.active {
 .cataimg {
     width: 100%;
     height: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .catatext {
@@ -390,6 +390,10 @@ a:hover, a.active {
         background-color: black;
     }
 
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
     #logo {
         width: 50%;
         height: auto;
@@ -447,12 +451,13 @@ a:hover, a.active {
 .desktop-cata-text {
     text-align: center;
     font-size: 2rem;
-    margin-top: 4vh;
+    margin-top: 8vh;
+    padding-bottom: 2vh;
 }
 
 .desktop-categories {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-row: auto;
     text-align: center;
 }
@@ -464,7 +469,7 @@ a:hover, a.active {
 }
 
 .category-img {
-    width: 50%;
+    width: 60%;
 }
 /* Styling for catalogue ends */
 
@@ -669,6 +674,10 @@ a:hover, a.active {
   .footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
   
   .footer-distributed p.footer-links a:hover{text-decoration:underline;}
+
+  .foot-icon {
+      width: 5%;
+  }
 /* Styling for footer ends */
 
 /* Styling for "about"/"drink" starts */
