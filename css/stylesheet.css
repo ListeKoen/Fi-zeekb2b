@@ -594,12 +594,20 @@ a:hover, a.active {
 }
 
 .accordion h2{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 #collapseOne, #collapseTwo, #collapseThree{
     margin-left: 4vw;
 }
+
+.container-fluid{
+    width: 85%;
+    margin: auto;
+}
+
+
+
 /*Styling for "product" ends*/
 
 
