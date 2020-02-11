@@ -12,7 +12,7 @@
 }
 
 * { /*This code apllies the new fon-face to the entire document*/
-    font-family: Gruppo;
+    font-family: "Gruppo";
 }
 
 body {
@@ -164,24 +164,25 @@ a:hover, a.active {
     display: none;
 }
 
-.collection-img {
+.index-content-img {
     width: 100%;
-    height: auto;
 }
 
-.jumbotron {
-    background-color: black;
+.index-content-container {
+    position: relative;
+    text-align: center;
 }
 
-.jumbotron h2 {
-    font-size: 1.5rem;
+.index-content-container h2 {
+    font-family: Gruppo;
 }
 
-.jumbotron .btn {
-    background-color: #307ca1;
-    border: none;
+.index-content-text {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    font-size: 2rem;
 }
-
 /* Styling for "index" ends */
 
 /* Styling for "catalogue" starts */
@@ -340,6 +341,11 @@ a:hover, a.active {
   .footer-distributed .footer-left p.footer-links {
     line-height: 1.8;
   }
+
+  footer p a, footer p {
+    font-family: Gruppo;
+    font-size: 0.9rem;
+  }
 /* Styling for footer ends */
 
 
@@ -420,22 +426,6 @@ a:hover, a.active {
     margin-left: auto;
     height: auto;
     /* width: 90%; */
-}
-
-.index-content-img {
-    width: 100%;
-}
-
-.index-content-container {
-    position: relative;
-    text-align: center;
-}
-
-.index-content-text {
-    position: absolute;
-    bottom: 50px;
-    right: 50px;
-    font-size: 2rem;
 }
 /* Styling for "index" ends */
 
