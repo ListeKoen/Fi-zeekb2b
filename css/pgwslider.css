@@ -21,7 +21,7 @@
     float: left;
     width: 74%;
     overflow: hidden;
-    height: inherit;
+    height: auto;
     position: relative;
     font-size: 1rem;
 }
@@ -212,4 +212,8 @@ ul.pgwSlider.narrow.listOnTheLeft > li,
 .pgwSlider.narrow .ps-current .ps-next {
     padding: 15px 12px 15px 15px;
     top: 40%;
+}
+
+.element.style{
+    height: 100%;
 }
