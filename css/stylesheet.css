@@ -527,6 +527,7 @@ a:hover, a.active {
 .product-wrapper-desktop{
     display: grid;
     grid-template-columns: 2fr 1fr;
+    margin-bottom: 6vh;
 }
 
 .product-wrapper-desktop ul{
@@ -550,7 +551,7 @@ a:hover, a.active {
 } */
 
 #product-text{
-    margin-top: 6vh;
+    margin-top: 4vh;
     margin-left: -3vw;
     width: 80%;
 }
@@ -564,6 +565,9 @@ a:hover, a.active {
     padding: 0px;
 }
 
+.top-description-desktop{
+    margin-bottom: 3vh;
+}
 .top-description-desktop h1{
     font-size: 2rem;
     margin-bottom: 4vh;
